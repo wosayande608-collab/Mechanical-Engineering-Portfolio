@@ -19,31 +19,31 @@ A technical portfolio demonstrating practical experience in data preprocessing, 
 
 ## 🔧 01 | Mechanical Materials — Exploratory Data Analysis
 
-**Dataset:** Materials and their Mechanical Properties  
+**Dataset:** Materials and their Mechanical Properties — Kaggle  
 **Size:** 1,552 rows × 15 columns  
 **Tools:** Python • Pandas • NumPy • Matplotlib
 
-Analyzed engineering materials including steel grades using properties such as ultimate tensile strength (Su), yield strength (Sy), elastic modulus (E), shear modulus (G), and Brinell hardness (Bhn).
+Analyzed engineering materials, including steel grades, using properties such as ultimate tensile strength (Su), yield strength (Sy), elastic modulus (E), shear modulus (G), and Brinell hardness (Bhn).
 
 ### What I Did
 
-- Inspected dataset structure, columns, and data types
-- Investigated missing values
-- Filled missing Heat Treatment values with "Not Specified"
-- Imputed missing A5 values using the median
-- Removed highly incomplete Bhn, pH, and HV columns
-- Removed the free-text Description column
-- Confirmed zero duplicate rows
-- Generated summary statistics
-- Analyzed material types
-- Created tensile-strength distributions
-- Compared the top 10 strongest materials
-- Created an Su vs Sy scatter plot
-- Created a correlation matrix
+- Inspected the dataset structure, columns, and data types.
+- Investigated missing values across the dataset.
+- Filled missing Heat Treatment values with "Not Specified".
+- Imputed missing A5 values using the median.
+- Removed highly incomplete Bhn, pH, and HV columns.
+- Removed the free-text Description column from the numerical analysis.
+- Confirmed that there were zero duplicate rows.
+- Generated summary statistics using descriptive analysis.
+- Examined unique material types.
+- Created a histogram of tensile strength (Su).
+- Compared the top 10 materials by average tensile strength.
+- Created a scatter plot comparing Su and Sy.
+- Created a correlation matrix for numerical properties.
 
 ### Engineering Relevance
 
-Supports data-driven comparison and material-selection decisions in engineering design.
+This project demonstrates how engineering material data can be cleaned, analyzed, and visualized to support **material comparison and data-informed material-selection decisions**.
 
 ### 🔗 Project Repository
 
@@ -53,67 +53,80 @@ Supports data-driven comparison and material-selection decisions in engineering 
 
 ## 📊 02 | Stock Price — Data Preprocessing
 
-**Dataset:** Monthly Apple stock-price data  
+**Dataset:** Stock_Prices_Cleaned.xlsx  
+**Data:** Monthly Apple stock-price records  
 **Tools:** Python • Pandas
 
 ### What I Did
 
-- Loaded the Excel dataset using Pandas
-- Identified and handled one missing monthly date
-- Checked for duplicate rows
-- Converted dates to datetime format
-- Standardized Company text
-- Rounded price and volume values
-- Sorted records chronologically
-- Exported the final cleaned dataset
-- Built subsequent charts and analysis
+- Loaded the Excel dataset using `pandas.read_excel()`.
+- Inspected the dataset for missing values.
+- Identified one missing monthly date.
+- Restored the missing date based on the surrounding monthly sequence.
+- Checked for duplicate rows using `.duplicated()`.
+- Confirmed that no duplicate rows were present.
+- Converted the Date column to datetime format.
+- Cleaned and standardized Company text.
+- Rounded trading volume to whole numbers.
+- Rounded Open, High, Low, and Close prices to two decimal places.
+- Sorted the records chronologically.
+- Saved the cleaned result as `Stock_Prices_Final_Cleaned.xlsx`.
+- Built charts and analysis using the cleaned dataset.
+
+### Skills Demonstrated
+
+**Data Cleaning • Data Validation • Data Transformation • Structured Data Preparation**
 
 ### 🔗 Project Repository
 
-[View Project →](https://github.com/wosayande608-collab)
+[View GitHub Profile →](https://github.com/wosayande608-collab)
 
 ---
 
 ## 📈 03 | Stock Price — Time Series Analysis
 
+**Dataset:** Monthly Apple stock-price data  
 **Tools:** Python • Pandas • Matplotlib
 
 ### What I Did
 
-- Organized the data chronologically
-- Examined price movements over time
-- Analyzed temporal patterns and variations
-- Created visualizations to interpret the time series
+- Used the cleaned chronological dataset for analysis.
+- Examined stock-price movements over time.
+- Investigated temporal patterns and variations.
+- Created visualizations to understand changes across the time series.
+- Used chronological analysis to interpret trends within the dataset.
 
 ### Engineering Relevance
 
-The same analytical methods can be applied to machine performance, vibration, temperature, and equipment-monitoring data.
+The same time-series analysis techniques can later be applied to chronological engineering measurements such as **machine performance, vibration, temperature, and equipment-monitoring data**.
 
 ### 🔗 Project Repository
 
-[View Project →](https://github.com/wosayande608-collab)
+[View GitHub Profile →](https://github.com/wosayande608-collab)
 
 ---
 
 ## 🤖 04 | Stock Price — Predictive Regression Analysis
 
+**Dataset:** Stock-price dataset  
 **Tools:** Python • Pandas • NumPy • Scikit-Learn
 
 ### What I Did
 
-- Prepared variables for statistical modeling
-- Examined relationships between variables
-- Built a regression model using Scikit-Learn
-- Evaluated predictive behavior
-- Compared observed and predicted values
+- Prepared the dataset for statistical modeling.
+- Selected relevant variables for analysis.
+- Examined relationships between variables.
+- Built a regression model using Scikit-Learn.
+- Evaluated the model's predictive behavior.
+- Compared observed and predicted values through visual analysis.
 
 ### Engineering Relevance
 
-Regression methods can support engineering performance prediction and equipment behavior analysis.
+Regression techniques can be applied to engineering problems involving **performance prediction, equipment behavior, material-property relationships, and engineering measurements**.
 
 ### 🔗 Project Repository
 
-[View Project →](https://github.com/wosayande608-collab)
+[View GitHub Profile →](https://github.com/wosayande608-collab)
 
 ---
 
@@ -126,12 +139,12 @@ Regression methods can support engineering performance prediction and equipment 
 
 ---
 
-## 🧰 Technical Skills
+# 🧰 Technical Skills
 
 **Python • Pandas • NumPy • Scikit-Learn • Excel • SQL • Power BI • Tableau • Git/GitHub • Data Visualization**
 
 ---
 
-### 🎯 Future Direction
+# 🎯 Future Direction
 
-Applying data, mathematics, and computational thinking to develop a strong foundation for Mechanical Engineering.
+**My goal is to combine Mechanical Engineering, mathematics, and computational methods to develop practical solutions for mechanical systems and manufacturing, while contributing to Nigeria’s industrial and technological development.**
